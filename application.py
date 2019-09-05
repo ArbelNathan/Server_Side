@@ -5,7 +5,7 @@ from datetime import datetime
 
 from flask import Flask, request, jsonify
 
-from server_side.handlers.sql.buildQueries import create_user, update_user, get_user, \
+from sql.buildQueries import create_user, update_user, get_user, \
     get_user_by_email, delete_user
 
 
