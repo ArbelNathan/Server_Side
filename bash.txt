@@ -1,0 +1,17 @@
+virtual machine from Arbel's computer:
+\Users\arbel\PycharmProjects\ConnectAppBackEnd\env\Scripts\activate.bat
+
+
+
+Save the output from pip freeze to a file named requirements.txt:
+pip freeze > requirements.txt
+
+Initialize your EB CLI repository with the eb init command:
+eb init -p python-3.6 connect-server-side --region us-east-2
+
+
+
+Create an environment and deploy your application to it with eb create:
+eb create flask-env
+
+
